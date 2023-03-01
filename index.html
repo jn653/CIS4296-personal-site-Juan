@@ -27,17 +27,10 @@
     <!-- Remove this and fill in your name & photo in the required areas -->
     <script>
      
-         fetch('https://randomuser.me/api/?inc=Juan Navarro,picture')
-        .then((response) => response.json())
-        .then(({ results }) => results[0])
-        .then(({ JuanNavarro, picture }) => {
-          document.querySelector('#name').innerText = JuanNavarro.first
-          document.querySelector(
-            '.navbar-brand'
-          ).innerText = `${JuanNavarro.first} ${JuanNavarro.last}`
-          document.title = `${JuanNavarro.first} ${JuanNavarro.last} Personal Site`
+         
+          document.title = "Juan Navarro" Personal Site`
           document.querySelector('#profilepic').src = picture.large
-        })
+        
         
     </script>
 
