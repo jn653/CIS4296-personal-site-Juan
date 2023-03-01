@@ -27,7 +27,7 @@ body {
     background-color: var(--bs-primary-dark)
 }
 
-.label label-info{
+.row w-100{
     background-color:var(--bs-info)  
 }
 
