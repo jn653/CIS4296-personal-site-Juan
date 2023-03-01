@@ -26,17 +26,10 @@
 
     <!-- Remove this and fill in your name & photo in the required areas -->
     <script>
-      fetch('https://randomuser.me/api/?inc=name,picture')
-        .then((response) => response.json())
-        .then(({ results }) => results[0])
-        .then(({ name, picture }) => {
-          document.querySelector('#name').innerText = name.first
-          document.querySelector(
-            '.navbar-brand'
-          ).innerText = `${name.first} ${name.last}`
-          document.title = `${name.first} ${name.last} Personal Site`
-          document.querySelector('#profilepic').src = picture.large
-        })
+     
+          document.title = `${Juan.first} ${Navarro.last} Personal Site`
+          
+        
     </script>
 
     <link href="styles/theme.css" rel="stylesheet" />
