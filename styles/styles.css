@@ -27,6 +27,10 @@ body {
     background-color: var(--bs-primary-dark)
 }
 
+.label label-info{
+    background-color:var(--bs-info)  
+}
+
 .language-wrapper img,
 .contact-wrapper a {
     height: 60px;
