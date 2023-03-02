@@ -1,6 +1,6 @@
 :root {
-   
-    --bs-primary: #88182d;
+    --temple-red-dark: rgb(136, 24, 45);
+    --bs-primary: black;
     --bs-primary-rgb: 158, 27, 52;
     --bs-primary-dark: #721426;
     --bs-primary-dark-rgb: 136, 24, 35;
