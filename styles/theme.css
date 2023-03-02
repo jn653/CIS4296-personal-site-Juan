@@ -47,10 +47,10 @@
     --bs-nav-link-hover-color: white;
 }
 
- .btn-primary {
+/* .btn-primary {
     background-color: var(--temple-red) !important;
     border-color: var(--temple-red) !important;
-} 
+} */
 
 /* .btn-primary:hover {
     background-color: var(--temple-red-dark) !important;
