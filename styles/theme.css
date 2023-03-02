@@ -1,6 +1,6 @@
 :root {
     --temple-red-dark: rgb(136, 24, 45);
-    --bs-primary: black;
+    --bs-primary: #88182d;
     --bs-primary-rgb: 158, 27, 52;
     --bs-primary-dark: #721426;
     --bs-primary-dark-rgb: 136, 24, 35;
@@ -26,7 +26,7 @@
 }
 
 .navbar {
-    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    background-color:black;
     --bs-navbar-padding-x: 0.1rem;
     --bs-navbar-padding-y: 0;
     --bs-navbar-brand-color: white;
