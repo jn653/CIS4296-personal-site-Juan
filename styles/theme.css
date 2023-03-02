@@ -26,7 +26,7 @@
 }
 
 .navbar {
-    background-color:black;
+    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
     --bs-navbar-padding-x: 0.1rem;
     --bs-navbar-padding-y: 0;
     --bs-navbar-brand-color: white;
@@ -47,10 +47,10 @@
     --bs-nav-link-hover-color: white;
 }
 
-/* .btn-primary {
+ .btn-primary {
     background-color: var(--temple-red) !important;
     border-color: var(--temple-red) !important;
-} */
+} 
 
 /* .btn-primary:hover {
     background-color: var(--temple-red-dark) !important;
